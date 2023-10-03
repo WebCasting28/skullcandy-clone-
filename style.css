@@ -1,0 +1,23 @@
+/*@media (max-width:992px) {
+    .hide{
+        display: none;
+    }
+    .re{
+        padding: 0 0;
+    }
+} 
+
+<nav class="d-none">
+            <div  class="absolute top-0 right-0 w-[100%] h-[100vh] bg-[#000] bg-opacity-30">
+                <ul class="w-[85%] h-[100vh] bg-white text-[#000] text-sm font-bold d-flex flex-col">
+                 <li class="py-[16px] px-[30px] border-b border-[#000] "><a href="" class="text-dark font-medium">SHOP <span class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a> </li>
+                 <li class="py-[13px] px-[30px] border-b border-[#000] "><a href="" class="text-dark font-medium">lNSlDE SKULLCANDY  <span class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                 <li class="py-[13px] px-[30px] border-b border-[#000] "><a href="" class="text-dark font-medium">SUPPORT  <span class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                 <li class="py-[13px] px-[30px] border-b border-[#000] "><a href="" class="text-dark font-medium">LOCATlON  <span class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                 <li class="py-[13px] px-[30px] border-b border-[#000] "><a href="" class=" text-[#969696] font-normal">Account</a></li>
+                 <li class="py-[13px] px-[30px] border-b border-[#000] "><a href="" class=" text-[#969696] font-normal">Search</a></li>
+            </ul>
+            </div>
+        </nav>
+
+*/

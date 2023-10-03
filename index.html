@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <!--Navbar-->
+    <nav class=" bg-[#000] z-[1] sticky top-0 w-[100%]">
+        <div class="container px-0 text-white d-flex h-[60px] justify-content-between align-items-center ">
+
+            <!--mobile screen hamburger icon or button-->
+
+            <button type="button" class=" text-[1.5rem]  d-lg-none" data-direction='right' data-bs-toggle="modal"
+                data-bs-target="#myModal">
+                <i class="fa-solid fa-bars px-[1rem]"></i>
+            </button>
+
+
+
+            <div class="d-flex  align-items-center">
+                <img src="nav img/Skullcandy.png" class=" w-[180px]" alt="">
+                <a href="#"
+                    class="d-none d-lg-block d-xl-block text-[12px] text-white font-medium mx-[1.5rem]  h-[24px] hover:border-b-2 hover:border-[#969696]"
+                    id="btn1">SHOP</a>
+                <a href="#"
+                    class="d-none d-lg-block d-xl-block text-[12px] text-white font-medium  h-[24px] hover:border-b-2 hover:border-[#969696]"
+                    id="btn2">INSIDE SKULLCANDY</a>
+            </div>
+            <div class="d-flex h-[60px] align-items-center">
+                <a href="#"
+                    class="d-none d-lg-block d-xl-block text-[12px] text-[#969696] hover:text-[#969696] mx-[1rem] h-[24px] hover:border-b-2 hover:border-[#969696]"
+                    id="btn3">Support</a>
+                <a href="#" class=""><img src="nav img/logo.png"
+                        class="d-none d-lg-block d-xl-block w-[25px] h-[25px] mx-[1rem]  hover:border-b-2 hover:border-[#969696] "
+                        alt="" id="btn4"></a>
+                <i class="fa-regular fa-user d-none d-lg-block d-xl-block text-[20px] px-[1rem]"></i>
+                <i class="fa-solid fa-magnifying-glass d-none d-lg-block d-xl-block text-[20px] px-[1rem]"></i>
+                <i class="fa-solid fa-cart-shopping text-[20px] px-[1rem]"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--mobile screen hamburger content-->
+
+    <div class="modal d-lg-none" id="myModal">
+        <div class="modal-dialog m-0 max-w-full d-flex ">
+            <div class="modal-content w-[85%] border-none rounded-none">
+                <div class="modal-body p-0 ">
+                    <ul class=" bg-white h-[100vh] text-[#000] text-sm font-bold d-flex flex-col">
+                        <li class="py-[16px] px-[30px] border-b border-[#000] "><a href=""
+                                class="text-dark font-medium">SHOP <span
+                                    class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a> </li>
+                        <li class="py-[13px] px-[30px] border-b border-[#000] "><a href=""
+                                class="text-dark font-medium">lNSlDE SKULLCANDY <span
+                                    class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                        <li class="py-[13px] px-[30px] border-b border-[#000] "><a href=""
+                                class="text-dark font-medium">SUPPORT <span
+                                    class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                        <li class="py-[13px] px-[30px] border-b border-[#000] "><a href=""
+                                class="text-dark font-medium">LOCATlON <span
+                                    class="float-right text-[2rem] leading-4 font-thin">&#43;</span></a></li>
+                        <li class="py-[13px] px-[30px] border-b border-[#000] "><a href=""
+                                class=" text-[#969696] font-normal"> <i
+                                    class="fa-regular fa-user text-[18px] pr-[0.5rem]"></i>Account</a></li>
+                        <li class="py-[13px] px-[30px] border-b border-[#000] "><a href=""
+                                class=" text-[#969696] font-normal"><i
+                                    class="fa-solid fa-magnifying-glass text-[18px] pr-[0.5rem]"></i>Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="nav img/navlogo.png" class="w-[50px] h-[50px] ml-[20px] mt-[8px]" alt="">
+        </div>
+    </div>
+
+<!--Shop link sub-menu-->
+
+    <div class="w-[100%] h-[100vh] fixed top-[-100%] bg-black bg-opacity-50  transition-all duration-700"
+        id="sub-menu1">
+        <div class=" container-fluid text-dark bg-white  cursor-pointer  h-[270px] py-[2rem]  relative" id="sub-show1">
+            <div class="w-[80%] mx-auto d-flex justify-content-around   text-[12px] font-normal">
+                <ul class=" pr-[3rem] border-r">
+                    <li class="py-[0.2rem]"><a href="#" class="text-[#000] hover:text-[#949494]">New Arrivals</a></li>
+                    <li class="py-[0.2rem]"><a href="#" class=" hover:text-[#949494]">Skull-IQ</a></li>
+                    <li class="py-[0.2rem]"><a href="#" class=" hover:text-[#949494]">Corporate Sales</a></li>
+                    <li class="py-[0.2rem]"><a href="#" class=""><span
+                                class="text-[#ff5100] hover:text-[#949494] font-bold">Budget Tws</span></a></li>
+                    <li class="py-[0.2rem]"><a href="#" class=""><span
+                                class="text-[#ff5100] hover:text-[#949494] font-bold">Special Offers</span></a></li>
+                    <li class="py-[0.2rem]"><a href="#" class=""><span
+                                class="text-[#ff5100] hover:text-[#949494] font-bold">Best Sellers</span></a></li>
+                </ul>
+                <ul>
+                    <span class="h5 text-[16px]">Earbuds</span>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494] text-[#949494]">Shop All Earbuds</a>
+                    </li>
+                </ul>
+                <ul>
+                    <span class="h5 text-[16px]">Headphones</span>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494]">Shop All Headphones</a></li>
+                </ul>
+                <ul>
+                    <span class="h5 text-[16px]">Gamig</span>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494]">Shop All Gaming</a></li>
+                </ul>
+                <ul>
+                    <span class="h5 text-[16px]">Others</span>
+                    <li class="py-[0.2rem]"><a href="#"><span class="text-[#ff5100] hover:text-[#949494] font-bold">Best
+                                Sellers</span></a></li>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494]">Premium Products</a></li>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494]">Tile™ – Enabled Products</a></li>
+                    <li class="py-[0.2rem]"><a href="#" class="hover:text-[#949494]">Active Lifestyle</a></li>
+                </ul>
+                <ul>
+                    <li class="font-medium text-[13px] pb-[0.6rem]"><a href="#" class="text-dark">Best Sellers</a></li>
+                    <li><a href="#"><img src="nav img/submenu img.jpg" class="w-[170px] h-[130px]" alt=""></a></li>
+                    <li class="font-medium text-[13px] hover:text-[#949494] pt-[0.4rem]"><a href="#"
+                            class="hover:text-[#949494]">Best Sellers <i
+                                class="fa fa-play float-right text-[6px] pt-[8px]"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Insideskullcandy link sub-menu-->
+
+    <div class="w-[100%] h-[100vh] fixed top-[-100%] bg-black bg-opacity-50  transition-all duration-700"
+        id="sub-menu2">
+        <div class="container-fluid px-0 text-dark bg-white  cursor-pointer h-[350px] relative " id="sub-show2">
+            <div class="d-flex h-[350px] w-[100%]">
+                <div class=" overflow-hidden"><img src="nav img/image1.jpg"
+                        class="h-[248px] hover:scale-105 transition-all duration-700" alt="">
+                    <h3 class="text-[1.8rem] py-[1rem] px-[1rem] font-bold">Our Mission, Vision, and Values</h3>
+                </div>
+                <div class="overflow-hidden border-l border-r border-dark"><img src="nav img/image2.jpg"
+                        class="h-[248px] hover:scale-105 transition-all duration-700" alt="">
+                    <h3 class="text-[1.8rem] py-[1rem] px-[1rem] font-bold">Our Culture</h3>
+                </div>
+                <div class="overflow-hidden"><img src="nav img/image3.jpg"
+                        class="h-[248px] hover:scale-105 transition-all duration-700" alt="">
+                    <h3 class="text-[1.8rem] py-[1rem] px-[1rem] font-bold">Our Team</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Support link sub-menu-->
+
+    <div class="w-[100%] h-[100vh] fixed top-[-100%]  bg-black bg-opacity-50  transition-all duration-700"
+        id="sub-menu3">
+        <div class="container-fluid px-0 text-dark bg-white h-[270px]  cursor-pointer " id="sub-show3">
+            <ul class=" float-right mx-[12rem] mt-[2.5rem]">
+                <li class="py-[0.5rem]"><a href=" #" class="text-[17px] font-bold hover:text-[#969696]">SUPPORT MENU</a>
+                </li>
+                <li class="py-[0.5rem]"><a href=" #" class="text-[17px] font-bold hover:text-[#969696]">PRODUCT HELP</a>
+                </li>
+                <li class="py-[0.5rem]"><a href=" #" class="text-[17px] font-bold hover:text-[#969696]">WARRANTY</a>
+                </li>
+                <li class="py-[0.5rem]"><a href=" #" class="text-[17px] font-bold hover:text-[#969696]">ORDER STATUS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!--flag link sub-menu-->
+
+    <div class="w-[100%] h-[100vh] fixed top-[-100%]  bg-black bg-opacity-50  transition-all duration-700"
+        id="sub-menu4">
+        <div class="container-fluid px-0 text-dark bg-white h-[300px]  cursor-pointer " id="sub-show4">
+            <div  class="w-[80%]  text-[12px]"> 
+           <div class="d-flex justify-content-around pt-[1.5rem] pb-[0.5rem]">
+            <ul class="w-[15%]">
+                <h2 class="py-[0.5rem]">North America</h2>
+                <li class="py-[0.2rem]"><a href="#" class="hover:text-[#969696]">Canada</a></li>
+                <li class="py-[0.2rem]"><a href="#" class="hover:text-[#969696]">Mexico</a></li>
+                <li class="py-[0.2rem]"><a href="#" class="hover:text-[#969696]">United States</a></li>
+            </ul>
+            <ul class="w-[15%]">
+                <h2 class="py-[0.5rem]">Europe / Middle East</h2>
+                <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">United Kingdom</a></li>
+                <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">Europe (EN)</a></li>
+            </ul>
+            <ul class="w-[15%]">
+                <h2 class="py-[0.5rem]" >Asia</h2>
+                <li class="py-[0.2rem]"><a href=""  class="hover:text-[#969696]">Japan | 日本</a></li>
+                <li class="py-[0.2rem]"><a href=""  class="hover:text-[#969696]">China | 中国</a></li>
+                <li class="py-[0.2rem]"><a href=""  class="hover:text-[#969696]">South Korea | 대한민국</a></li>
+                <li class="py-[0.2rem]"><a href=""  class="hover:text-[#969696]">Taiwan | 臺灣</a></li>
+                <li class="py-[0.2rem]"><a href=""  class="hover:text-[#969696]">India</a></li>
+            </ul>
+           </div>
+           <div  class="d-flex justify-content-around pt-[0.5rem] pb-[1rem]">
+           <ul class="w-[15%]">
+            <h2 class="py-[0.5rem]">South America</h2>
+            <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">Chile</a></li>
+            <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">Peru</a></li>
+             
+           </ul>
+           <ul class="w-[15%]">
+            <h2 class="py-[0.5rem]">Africa</h2>
+            <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">South Africa</a></li>
+           </ul>
+           <ul class="w-[15%]">
+            <h2 class="py-[0.5rem]">Pacific</h2>
+            <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">Australia</a></li>
+            <li class="py-[0.2rem]"><a href="" class="hover:text-[#969696]">New Zealand</a></li>
+           </ul>
+           </div>
+        </div>
+        </div>
+    </div>
+
+<!--offer link tag-->
+    
+    <div class="container-fluid px-0">
+     <div class="container">
+        <div class="w-[100%] text-center p-[1rem]">
+        <a href="#" class="hover:text-[#1d4ed8] text-[#0ea5e9] cursor-pointer hover:border-b hover:border-[#1e40af] mt-[2rem] text-[18px]">
+            Use Coupon Code <b class="text-[20px]">MRP65</b> Get Flat <b class="text-[25px] text-[#f47c35]">65% OFF</b> on MRP 
+        <b class="text-[18px] font-bold">SHOP NOW ></b>
+        </a>
+    </div>
+     </div>
+
+<!--strip of animation text-->
+
+     <div class="container-fluid text-white px-0">
+        <marquee behavior="" direction="left" class=" h-[40px] pt-[5px] bg-black relative z-[-1]">
+            <span class="text-[17px] font-semibold  ">Get Additional 5% off upto ₹500 on all prepaid orders</span>
+        </marquee>
+    </div>
+    </div>
+
+<!--Filter box and body heading-->
+
+    <div class="container-fluid">
+        <div class="container">
+    <div class="text-center py-6">
+        <h1 class="text-[3rem] fw-bolder tracking-tighter">BEST SELLERS</h1>
+    </div>
+    <div class="float-right my-[2rem] px-[0.5rem]  py-[8px] shadow-sm  d-flex">
+        <form action="" class="d-flex align-items-center text-[15px]">
+            <label for="">SORT:</label>
+            <select name="" id="" class=" border-none d-flex justify-content-between px-[6px] text-[14px] w-[100%] outline-none">
+                <option selected>Select</option>
+               <option value="">Popularity</option>
+               <option value="">Average Rating</option>
+               <option value="">Latest</option>
+               <option value="">Price: low to high</option>
+               <option value="">Price: high to low</option>
+            </select>
+        </form>
+    </div>
+</div>
+</div>
+
+
+<!--main body-->
+
+<div class="container-fluid my-[5rem]">
+    <div class="container ">
+        <div class="row w-[100%]  align-items-center justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-md-6 mt-[3rem] cursor-pointer " >
+                    <img src="main img/image1.jpg" alt="" class="w-[70%] mx-auto">
+             <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                <h3>
+                    <a href="#" class="text-dark">Smokin Buds True Wireless Earbuds</a>
+                </h3>
+                <p class="font-medium"><span>&#8377;</span>7,999.00</p>
+             </div>
+             <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                <button class="tracking-widest">VlEW OPTlONS</button>
+             </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mt-[3rem] cursor-pointer">
+                <img src="main img/image2.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Dime True Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>7,499.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image3.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Jib True 2 Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>9,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image4.png" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Sesh ANC True Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>21,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image5.png" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Dime 2 True Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>7,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image6.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Rail True Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>21,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+ 
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image7.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Inkd+ Earbuds with Microphone</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>2,499.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image8.webp" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Hesh Evo Wireless Headphones</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>22,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image9.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Push Active True Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>20,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image10.webp" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Jib+ Wireless Earbuds</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>4,599.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image11.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Jib Earbuds with Microphone</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>1,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image12.webp" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Cassette Wireless On-Ear Headphones</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>7,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image13.webp" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">Crusher Evo Sensory Bass Headphones </a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>37,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6  mt-[3rem] cursor-pointer">
+                <img src="main img/image14.jpg" alt="" class="w-[70%] mx-auto">
+                <div class=" text-center font-bold text-[18px] mt-[3.5rem]">
+                    <h3>
+                        <a href="#" class="text-dark">SLYR Pro Wired Black Gaming Headset</a>
+                    </h3>
+                    <p class="font-medium"><span>&#8377;</span>28,999.00</p>
+                 </div>
+                 <div class="py-[13px] px-[10px] bg-[#000] text-white w-[40%] text-[12px] text-center  mx-auto mt-[1.5rem]">
+                    <button class="tracking-widest">VlEW OPTlONS</button>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+
+   <footer class="h-full pb-[2rem] bg-[#000]">
+    <div class="container-fluid h-auto border-b pb-5">
+      <div class="container w-[100%]">
+        <div class="row text-white justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6">
+
+              <div class="mt-[3.5rem] text-center">
+                <h2 class="text-[16px] font-bold tracking-tighter pb-[1.5rem]">HEAR IT FIRST</h2>
+                <input type="text" placeholder="Sign up for Email" class="py-[7px] px-[8px] border-none outline-none text-black">
+                <span class="text-[1.5rem] pl-[5px]">></span>
+              </div>
+
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-8 ">
+                <div class="d-flex justify-content-between mt-[3.5rem]">
+                    <ul>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Help Center</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Contact Us</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Product Help</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Product Help</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Order Status</a></li>
+                    </ul>
+                    <ul>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Bulk Orders</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Press Releases</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Blogs</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Contest</a></li>
+                    </ul>
+                    <ul>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">About</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Born in Pc</a></li>
+                        <li class="py-[0.3rem]"><a href="#" class="hover:text-[#969696] font-normal text-[14px]">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6">
+                <div class="mt-[3.5rem] text-center">
+                    <h3 class="font-bold fs-5">FOLLOW US</h3>
+                    <div class="fs-3 py-3 cursor-pointer ">
+                        <i class="fa-brands fa-instagram px-3"></i>
+                        <i class="fa-brands fa-youtube px-3"></i>
+                        <i class="fa-brands fa-facebook px-3"></i>
+                        <i class="fa-brands fa-twitter px-3"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-bold fs-5 py-3">CONTACT US</h3>
+                        <p class="pl-[1rem] py-2 font-medium cursor-pointer">Email :- customercare@brandeyes.in</p>
+                        <p class="pl-[1rem] py-2 font-medium cursor-pointer">Phone :- 011-42700400</p>
+                        <p class="pl-[1rem] py-2 font-medium cursor-pointer">Mon-Fri, 10 AM – 4 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
